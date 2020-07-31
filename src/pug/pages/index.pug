@@ -1,0 +1,31 @@
+extends ../layout/main
+block variable
+block meta
+    title= 'Home'
+    meta(name='description', content='')
+block head
+    link(rel='stylesheet' href="/wp-content/themes/sliderThree/static/base.css")
+    link(rel='stylesheet' href="/wp-content/themes/sliderThree/static/styles.css")
+    link(rel='stylesheet' href="/wp-content/themes/sliderThree/assets/s3d/styles/3d.min.css")
+block scripts
+    script(src='/wp-content/themes/sliderThree/static/jquery.min.js')
+    script(src='/wp-content/themes/sliderThree/assets/s3d/scripts/vendors.bundle.js')
+    script(src='/wp-content/themes/sliderThree/assets/s3d/scripts/index.bundle.js')
+
+block content
+    .page__inner
+        section.main
+            #app
+            .cursor
+                .cursor__inner.cursor__inner--circle
+                .cursor__inner.cursor__inner--dot
+
+
+block footer
+    footer.page__footer-wrapper.s3d__footer
+        include ../includes/footer
+
+block header
+    header.header
+        include ../includes/header.pug
+

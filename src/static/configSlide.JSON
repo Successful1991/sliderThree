@@ -1,0 +1,32 @@
+[
+  {
+    "image":  "/wp-content/themes/sliderThree/assets/s3d/images/1.jpg",
+    "imageId" : "imageSlideId1",
+    "title": "Segovia",
+    "meta": "Spain / Castile and León"
+  },
+  {
+    "image":  "/wp-content/themes/sliderThree/assets/s3d/images/2.jpg",
+    "imageId" :  "imageSlideId2",
+    "title": "Barcelona",
+    "meta": "Spain / Catalonia"
+  },
+  {
+    "image":  "/wp-content/themes/sliderThree/assets/s3d/images/3.jpg",
+    "imageId" :  "imageSlideId3",
+    "title": "Málaga",
+    "meta": "Spain / Andalusia"
+  },
+  {
+    "image":  "/wp-content/themes/sliderThree/assets/s3d/images/4.jpg",
+    "imageId" :  "imageSlideId4",
+    "title": "Pamplona",
+    "meta": "Spain / Navarre"
+  },
+  {
+    "image":  "/wp-content/themes/sliderThree/assets/s3d/images/5.jpg",
+    "imageId" :  "imageSlideId5",
+    "title": "Bilbao",
+    "meta": "Spain / Biscay"
+  }
+]
